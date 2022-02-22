@@ -10,7 +10,7 @@
     <% for (const obj of messages) { %>
       <div>
       <% for (const property in obj) { %>
-        <p><%= obj.property %></p>
+        <p><%= obj[property] %></p>
       <% } %>
       </div>
     <% } %>
