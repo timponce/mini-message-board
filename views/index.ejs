@@ -7,5 +7,14 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <% for (const obj of messages) { %>
+      <div>
+      <% for (const property in obj) { %>
+        <p><%= obj.property %></p>
+      <% } %>
+      </div>
+    <% } %>
+    <div>
+    </div>
   </body>
 </html>
