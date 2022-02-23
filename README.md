@@ -9,5 +9,5 @@ It is a rudimentary app that helped me to learn and practice using the Javascrip
 Specifically, this web application uses routes to display the main message board and the field to send a new message, managing data via GET and POST methods, and views or templates to layout the HTML of the rendered data.
 
 I used the following resources to help me create this:
--[The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/mini-message-board)
--[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
+- [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/mini-message-board)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
