@@ -6,12 +6,18 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <form method="POST" action="/new">
-        <label for="messageUser">Name</label>
-        <input type="text" name="messageUser">
-        <label for="messageText">Message</label>
-        <input type="text" name="messageText">
-        <button type="submit">Send Message</button>
+    <form method="POST" action="/new" class="message-form">
+        <div class="form-row">
+            <label for="messageUser" class="form-label">Name</label>
+            <input type="text" name="messageUser" class="form-input" required>
+        </div>
+        <div class="form-row">
+            <label for="messageText" class="form-label">Message</label>
+            <textarea type="text" name="messageText" class="form-textarea" required></textarea>
+        </div>
+        <div class="form-row">
+            <button type="submit" class="form-button">Send Message</button>
+        </div>
     </form>
   </body>
 </html>

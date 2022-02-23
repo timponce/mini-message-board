@@ -9,10 +9,13 @@
     <p>Welcome to <%= title %></p>
     <h2><a href="/new">Send a message!</a></h2>
     <% for (const obj of messages) { %>
-      <div>
-      <% for (const property in obj) { %>
+      <div class="message-container">
+        <h2><%= obj.text %></h2>
+        <p>👤 <%= obj.user %></p>
+        <p><%= obj.added %></p>
+        <!-- <% for (const property in obj) { %>
         <p><%= obj[property] %></p>
-      <% } %>
+      <% } %> -->
       </div>
     <% } %>
   </body>

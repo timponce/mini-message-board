@@ -4,5 +4,61 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.message-container {
+  border: 2px solid black;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  padding-left: 16px;
+}
+
+.message-form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.form-row {
+}
+
+.form-label {
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.form-textarea {
+  width: 100%;
+  padding: 8px;
+  height: 120px;
+  resize: vertical;
+  font: inherit;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.form-button {
+  margin-top: 16px;
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00b7ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form-button:active {
+  background-color: #009ad6;
 }
