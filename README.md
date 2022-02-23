@@ -1,5 +1,7 @@
 # mini-message-board
 
+![Screengrab of app](/mini-message-board-screenshot.png?raw=true)
+
 [See it in action](https://lit-reaches-01491.herokuapp.com/)
 
 This interactive web app allows users to send and view messages.
